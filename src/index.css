@@ -47,6 +47,18 @@ nav a:active {
   border-bottom: 2px solid tomato;
 }
 
+a {
+  text-decoration: none;
+  transition: .2s;
+  color: rgba(203, 232, 223, 0.7)
+ 
+}
+
+a:hover {
+  transform: (2,-2) ease;
+  color: rgba(150, 232, 223, 0.7)
+}
+
 #home {
   height: 50vh;
   min-height: 400px;
